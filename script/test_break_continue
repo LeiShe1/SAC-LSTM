@@ -1,0 +1,15 @@
+
+
+
+from operator import index
+from textwrap import indent
+
+
+list = "shelei hello world"
+index = 1
+for i in range(20):
+    index += 1 
+    if index == 5:
+        index = 1
+        continue
+    print(index)
